@@ -117,7 +117,7 @@
 
     <!-- HOME -->
  
-    <div id="home" class="collapse show">
+    <div id="home" onclick="openDiv()" class="collapse show">
       <div class="  text-white py-5 bg ">
         <h2 class="centro">WebSite </h2>
         <p class="lead"></p>
@@ -154,7 +154,7 @@
 
 
     <!-- RESUME -->
-    <div id="resume" class="collapse">
+    <div id="resume" class="collapse" onclick="openDiv()">
       <div class=" card-body bg- text-white py-5 bg ">
         <h2 class="centro" >Onboard & Interviews</h2>
         <p class="lead"></p>
@@ -738,7 +738,7 @@
 
 
     <!-- WORK -->
-    <div id="work" class="collapse">
+    <div id="work" onclick="openDiv()" class="collapse">
       <div class=" card-body  text-white py-5  bg ">
         <h2 class="centro">Gallery </h2>
         <p class="lead"></p>
@@ -1144,7 +1144,7 @@
 
  
    <!-- CONTACT -->
-   <div id="contact" class="collapse">
+   <div id="contact" onclick="openDiv()" class="collapse">
     <div class="   card-body  text-white py-5  bg">
      <h2 class="centro" >Results  </h2>
    
@@ -1370,6 +1370,11 @@
       e.preventDefault();
       $(this).ekkoLightbox();
     });
+
+    function openDiv() {
+  document.getElementById("myDiv").style.display = "block";
+}
+
   </script>
 
 
