@@ -12,6 +12,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
   <link rel="stylesheet" href="./static/style.css">
   <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+
+  <meta name="msapplication-tap-highlight" content="no">
   <title>NicholasTomasella</title>
 </head>
  
@@ -79,13 +85,27 @@
 
                       <div class="p-4 bg text-center border-radius  ">
 
-                         Nicholas Tomasella (Italy, Rep.Ceca)  <br> MLG Racing kart driver <br><br> 
-                          🥇 2021 EK IGF 🌍 <br> 🥈 2019 EK IGF 🌍 <br> P6 WSK Open Series Rd.2 2023
 
-
-
-               
-
+                <div class="hero-full-container  white-text-container">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <div class="hero-full-wrapper">
+                          <div class="text-content">
+                            <p>
+                              <span id="typed-strings">
+                                <span>    Nicholas Tomasella (Italy, Rep.Ceca)  <br> MLG Racing kart driver <br> 🥇 2021 EK IGF </span>
+                                <span>     Nicholas Tomasella (Italy, Rep.Ceca)  <br> MLG Racing kart driver <br> 🥈 2019 EK IGF</span>
+                                <span>      Nicholas Tomasella (Italy, Rep.Ceca)  <br> MLG Racing kart driver <br> P6 WSK Open Series Rd.2 2023</span>
+                              </span>
+                              <span id="typed"></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
               </div>  <br>
                    
@@ -310,7 +330,12 @@
 
 
 
-
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+       type();
+       movingBackgroundImage();
+    });
+  </script>
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -319,7 +344,7 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
-
+  <script  src="./static/script.js"></script>
 
 
 </body>
