@@ -84,8 +84,14 @@ body {
   border-radius: 30px;
 }
   
+.intro_to_website{
+  text-align: center;
+  color: #fff;
+  background-color: #ffffff00;
+  border: none;
 
-   
+
+}
 
 .pad-video {
   background-color: #000;
@@ -101,7 +107,6 @@ padding-bottom: 3px;
   margin-right: auto;
   width: 300px;
   }
-
 
 
 
