@@ -494,7 +494,7 @@
 <div class="row">
 
 
-<marquee   behavior="alternate"   loop=-1   > 
+<marquee   behavior="alternate"   loop=-1  scrollamount="4" > 
 
 
   <a type="button" href="https://www.intermodaltrasporti.it/">
@@ -607,7 +607,18 @@
       </div>
     </footer>
 
+<script>
 
+$('.port-item').click(function () {
+      $('.collapse').collapse('hide');
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function (e) {
+      e.preventDefault();
+      $(this).ekkoLightbox(); 
+    });
+
+</script>
 
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
