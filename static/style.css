@@ -11,7 +11,11 @@ padding-left :2vh ;
 padding-left :2vh ;
 
   }
-  
+ 
+  .by-elsoft {
+    color: rgb(48, 48, 48);
+  }
+
   #main-header .port-item {
     width: 30%;
   }
