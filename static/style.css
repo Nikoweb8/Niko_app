@@ -22,10 +22,13 @@ padding-left :2vh ;
   }
   
 .border-radius{
-  border-radius: 10px;
+  border-radius: 13px;
   border: 1px solid #ffffff;
 }
 
+.pad-sponsor{
+  padding-left: 23px;
+}
 
 .bg-black {
   color: #fff;
@@ -36,6 +39,10 @@ padding-left :2vh ;
   .port-item {
     padding: 1em !important;
   }
+}
+
+.color-sponsor {
+  background-color: rgb(7, 23, 30);
 }
 
 .centro {
