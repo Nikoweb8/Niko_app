@@ -28,7 +28,3 @@ def my_photo():
 def my_Results():
     return render_template('Results.html')
 
-
-
-
-
